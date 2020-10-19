@@ -16,12 +16,12 @@ while True:
       encouragement_list.append("find something fun to do")
       counter += 1
     if each_word == "enjoying":
-      feelings_list.append("enjoying")
+      feelings_list.append("happy")
       encouragement_list.append("remember to share the fun with others")
       counter += 1
     if each_word == "results":
-      feelings_list.append("results")
-      encouragement_list.append("don't worry just try again")
+      feelings_list.append("disappointed")
+      encouragement_list.append("not give up and try again")
       counter += 1
     if each_word == "stuck":
       feelings_list.append("stuck")
@@ -34,7 +34,7 @@ while True:
 
   elif counter == 1:
     
-      output = "It seems that you are feeling quite " + feelings_list[0] + ". However, do remember that "+ encouragement_list[0] + "! Hope you feel better :)"  
+      output = "It seems that you are feeling quite " + feelings_list[0] + ". However, do remember to "+ encouragement_list[0] + "! Hope you feel better :)"  
 
   else:
 
